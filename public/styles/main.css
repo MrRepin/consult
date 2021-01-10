@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+#footer {
+    flex: 0 0 auto;
+}
+
+#footer span {
+    margin: 0 auto;
+}
+
+.table {
+    vertical-align: baseline;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
